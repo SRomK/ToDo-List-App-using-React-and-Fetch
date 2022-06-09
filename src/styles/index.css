@@ -1,46 +1,52 @@
-.form{
+body{
+    background-color: black;
+}
+.container{
+    background-color: rgb(59, 34, 50);
+}
+
+.form {
     width: 80%;
-    margin: 60px auto 0;
-}
-
-.form span{
-    font-size: 35px;
-    margin-right: 20px;
-}
-
-.form input {
-    margin-right: 30px;
+    margin: 60px auto 20px;
+    align-items: center;
+    
+    color: rgb(194, 110, 199);
+    display: flex;
+    flex-direction: column;
 
 }
-
-.form button {
-    border-radius: 10px;
-    padding: 15px;
+.form span {
     font-size: 20px;
-    background-color: blueviolet;
-    color: black;
+    margin-top:20px;
 }
+.form input {
+    margin-top: 30px;
+}
+.form button {
+    margin: 30px 0;
+    color: rgb(89, 24, 78);
+    background-color: black;
 
-.validation{
+}
+.validacion {
     width: 80%;
-    color: red;
-    margin: 0 auto;
+    color:rgb(94, 215, 122);
+    margin: auto;
 }
-
-.list{
+.lista {
     width: 80%;
-    margin: 50px auto 0;
+    margin: 50px auto 0 ;
+    
 }
-
-.tarea{
-    font-size: 25px;
-    margin: 20px 0 15px 0;
+.tarea {
+    border: 2px rgb(254, 82, 243) solid;
+    border-radius: 2rem;
+    height:fit-content;
+    background-color: rgb(149, 91, 224);
+    padding: 2%;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
-}
-
-.buttonGuardar{
-    font-weight: bold;
-    background-color: violet;
-
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    color: rgb(64, 18, 75);
+    
 }
