@@ -2,7 +2,8 @@ body{
     background-color: black;
 }
 .container{
-    background-color: rgb(59, 34, 50);
+    background-color: rgb(98, 58, 108);
+    border-radius: 2rem;
 }
 
 .form {
